@@ -1,0 +1,713 @@
+fileFormatVersion: 2
+guid: 713939e9863ce4842aea221c92e507cc
+timeCreated: 1476881442
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: "Arco P\xFAbico"
+    100002: "Astr\xE1galo"
+    100004: Brazo
+    100006: "Calc\xE1neo"
+    100008: "Cart\xEDlago Costal Derecho 01"
+    100010: "Cart\xEDlago Costal Derecho 02"
+    100012: "Cart\xEDlago Costal Derecho 03"
+    100014: "Cart\xEDlago Costal Derecho 04"
+    100016: "Cart\xEDlago Costal Derecho 05"
+    100018: "Cart\xEDlago Costal Derecho 06"
+    100020: "Cart\xEDlago Costal Izquierdo 01"
+    100022: "Cart\xEDlago Costal Izquierdo 02"
+    100024: "Cart\xEDlago Costal Izquierdo 03"
+    100026: "Cart\xEDlago Costal Izquierdo 04"
+    100028: "Cart\xEDlago Costal Izquierdo 05"
+    100030: "Cart\xEDlago Costal Izquierdo 06"
+    100032: "Cart\xEDlagos Costales"
+    100034: "Clav\xEDcula"
+    100036: Costilla Flotante Derecha 01
+    100038: Costilla Flotante Derecha 02
+    100040: Costilla Flotante Izquierda 01
+    100042: Costilla Flotante Izquierda 02
+    100044: Costilla Verdadera Derecha 01
+    100046: Costilla Verdadera Derecha 02
+    100048: Costilla Verdadera Derecha 03
+    100050: Costilla Verdadera Derecha 04
+    100052: Costilla Verdadera Derecha 05
+    100054: Costilla Verdadera Derecha 06
+    100056: Costilla Verdadera Derecha 07
+    100058: Costilla Verdadera Derecha 08
+    100060: Costilla Verdadera Derecha 09
+    100062: Costilla Verdadera Derecha 10
+    100064: Costilla Verdadera Izquierda 01
+    100066: Costilla Verdadera Izquierda 02
+    100068: Costilla Verdadera Izquierda 03
+    100070: Costilla Verdadera Izquierda 04
+    100072: Costilla Verdadera Izquierda 05
+    100074: Costilla Verdadera Izquierda 06
+    100076: Costilla Verdadera Izquierda 07
+    100078: Costilla Verdadera Izquierda 08
+    100080: Costilla Verdadera Izquierda 09
+    100082: Costilla Verdadera Izquierda 10
+    100084: Costillas Flotantes
+    100086: Costillas Verdaderas
+    100088: Coxis
+    100090: "Cr\xE1neo"
+    100092: "Cr\xE1neo 1"
+    100094: "Cuboides y Tercer Cu\xF1a"
+    100096: "C\xFAbito"
+    100098: Discos Intervertebrales
+    100100: Escafoides
+    100102: //RootNode
+    100104: Esternon
+    100106: Falange Distal Anular
+    100108: Falange Distal Anular Pie
+    100110: Falange Distal Medio
+    100112: Falange Distal Medio Pie
+    100114: "Falange Distal Me\xF1ique"
+    100116: "Falange Distal Me\xF1ique Pie"
+    100118: Falange Distal Pulgar
+    100120: Falange Distal Pulgar Pie
+    100122: "Falange Distal \xCDndice"
+    100124: "Falange Distal \xCDndice Pie"
+    100126: Falange Medial Anular
+    100128: Falange Medial Anular Pie
+    100130: Falange Medial Medio
+    100132: Falange Medial Medio Pie
+    100134: "Falange Medial Me\xF1ique"
+    100136: "Falange Medial Me\xF1ique Pie"
+    100138: "Falange Medial \xCDndice"
+    100140: "Falange Medial \xCDndice Pie"
+    100142: Falange Proxima Pulgar
+    100144: Falange Proximal Anular
+    100146: Falange Proximal Anular Pie
+    100148: Falange Proximal Medio
+    100150: Falange Proximal Medio Pie
+    100152: "Falange Proximal Me\xF1ique"
+    100154: "Falange Proximal Me\xF1ique Pie"
+    100156: Falange Proximal Pulgar Pie
+    100158: "Falange Proximal \xCDndice Pie"
+    100160: "Falange Pr\xF3xima \xCDndice"
+    100162: "F\xE9mur"
+    100164: Huesos del Carpo
+    100166: Huesos del Carpo 1
+    100168: "H\xFAmero"
+    100170: "Mand\xEDbula"
+    100172: Metacarpiano Anular
+    100174: Metacarpiano Anular Pie
+    100176: Metacarpiano Medio
+    100178: Metacarpiano Medio Pie
+    100180: "Metacarpiano Me\xF1ique"
+    100182: "Metacarpiano Me\xF1ique Pie"
+    100184: Metacarpiano Pulgar
+    100186: Metacarpiano Pulgar Pie
+    100188: "Metacarpiano \xCDndice"
+    100190: "Metacarpiano \xCDndice Pie"
+    100192: "Om\xF3plato"
+    100194: "Peron\xE9"
+    100196: Pie
+    100198: Pierna
+    100200: "Primera y Segunda Cu\xF1a"
+    100202: "P\xE9lvis"
+    100204: "P\xE9lvis 1"
+    100206: "P\xE9lvis 2"
+    100208: Radio
+    100210: "R\xF3tula"
+    100212: Sacro
+    100214: Tibia
+    100216: "V\xE9rtebra Cervical 01"
+    100218: "V\xE9rtebra Cervical 02"
+    100220: "V\xE9rtebra Cervical 03"
+    100222: "V\xE9rtebra Cervical 04"
+    100224: "V\xE9rtebra Cervical 05"
+    100226: "V\xE9rtebra Cervical 06"
+    100228: "V\xE9rtebra Lumbar 01"
+    100230: "V\xE9rtebra Lumbar 02"
+    100232: "V\xE9rtebra Lumbar 03"
+    100234: "V\xE9rtebra Lumbar 04"
+    100236: "V\xE9rtebra Lumbar 05"
+    100238: "V\xE9rtebra Tor\xE1cica 01"
+    100240: "V\xE9rtebra Tor\xE1cica 02"
+    100242: "V\xE9rtebra Tor\xE1cica 03"
+    100244: "V\xE9rtebra Tor\xE1cica 04"
+    100246: "V\xE9rtebra Tor\xE1cica 05"
+    100248: "V\xE9rtebra Tor\xE1cica 06"
+    100250: "V\xE9rtebra Tor\xE1cica 07"
+    100252: "V\xE9rtebra Tor\xE1cica 08"
+    100254: "V\xE9rtebra Tor\xE1cica 09"
+    100256: "V\xE9rtebra Tor\xE1cica 10"
+    100258: "V\xE9rtebra Tor\xE1cica 11"
+    100260: "V\xE9rtebra Tor\xE1cica 12"
+    100262: "V\xE9rtebra Tor\xE1cica 13"
+    100264: "V\xE9rtebras"
+    100266: "V\xE9rtebras Cervicales"
+    100268: "V\xE9rtebras Lumbares"
+    100270: "V\xE9rtebras Tor\xE1cicas"
+    400000: "Arco P\xFAbico"
+    400002: "Astr\xE1galo"
+    400004: Brazo
+    400006: "Calc\xE1neo"
+    400008: "Cart\xEDlago Costal Derecho 01"
+    400010: "Cart\xEDlago Costal Derecho 02"
+    400012: "Cart\xEDlago Costal Derecho 03"
+    400014: "Cart\xEDlago Costal Derecho 04"
+    400016: "Cart\xEDlago Costal Derecho 05"
+    400018: "Cart\xEDlago Costal Derecho 06"
+    400020: "Cart\xEDlago Costal Izquierdo 01"
+    400022: "Cart\xEDlago Costal Izquierdo 02"
+    400024: "Cart\xEDlago Costal Izquierdo 03"
+    400026: "Cart\xEDlago Costal Izquierdo 04"
+    400028: "Cart\xEDlago Costal Izquierdo 05"
+    400030: "Cart\xEDlago Costal Izquierdo 06"
+    400032: "Cart\xEDlagos Costales"
+    400034: "Clav\xEDcula"
+    400036: Costilla Flotante Derecha 01
+    400038: Costilla Flotante Derecha 02
+    400040: Costilla Flotante Izquierda 01
+    400042: Costilla Flotante Izquierda 02
+    400044: Costilla Verdadera Derecha 01
+    400046: Costilla Verdadera Derecha 02
+    400048: Costilla Verdadera Derecha 03
+    400050: Costilla Verdadera Derecha 04
+    400052: Costilla Verdadera Derecha 05
+    400054: Costilla Verdadera Derecha 06
+    400056: Costilla Verdadera Derecha 07
+    400058: Costilla Verdadera Derecha 08
+    400060: Costilla Verdadera Derecha 09
+    400062: Costilla Verdadera Derecha 10
+    400064: Costilla Verdadera Izquierda 01
+    400066: Costilla Verdadera Izquierda 02
+    400068: Costilla Verdadera Izquierda 03
+    400070: Costilla Verdadera Izquierda 04
+    400072: Costilla Verdadera Izquierda 05
+    400074: Costilla Verdadera Izquierda 06
+    400076: Costilla Verdadera Izquierda 07
+    400078: Costilla Verdadera Izquierda 08
+    400080: Costilla Verdadera Izquierda 09
+    400082: Costilla Verdadera Izquierda 10
+    400084: Costillas Flotantes
+    400086: Costillas Verdaderas
+    400088: Coxis
+    400090: "Cr\xE1neo"
+    400092: "Cr\xE1neo 1"
+    400094: "Cuboides y Tercer Cu\xF1a"
+    400096: "C\xFAbito"
+    400098: Discos Intervertebrales
+    400100: Escafoides
+    400102: //RootNode
+    400104: Esternon
+    400106: Falange Distal Anular
+    400108: Falange Distal Anular Pie
+    400110: Falange Distal Medio
+    400112: Falange Distal Medio Pie
+    400114: "Falange Distal Me\xF1ique"
+    400116: "Falange Distal Me\xF1ique Pie"
+    400118: Falange Distal Pulgar
+    400120: Falange Distal Pulgar Pie
+    400122: "Falange Distal \xCDndice"
+    400124: "Falange Distal \xCDndice Pie"
+    400126: Falange Medial Anular
+    400128: Falange Medial Anular Pie
+    400130: Falange Medial Medio
+    400132: Falange Medial Medio Pie
+    400134: "Falange Medial Me\xF1ique"
+    400136: "Falange Medial Me\xF1ique Pie"
+    400138: "Falange Medial \xCDndice"
+    400140: "Falange Medial \xCDndice Pie"
+    400142: Falange Proxima Pulgar
+    400144: Falange Proximal Anular
+    400146: Falange Proximal Anular Pie
+    400148: Falange Proximal Medio
+    400150: Falange Proximal Medio Pie
+    400152: "Falange Proximal Me\xF1ique"
+    400154: "Falange Proximal Me\xF1ique Pie"
+    400156: Falange Proximal Pulgar Pie
+    400158: "Falange Proximal \xCDndice Pie"
+    400160: "Falange Pr\xF3xima \xCDndice"
+    400162: "F\xE9mur"
+    400164: Huesos del Carpo
+    400166: Huesos del Carpo 1
+    400168: "H\xFAmero"
+    400170: "Mand\xEDbula"
+    400172: Metacarpiano Anular
+    400174: Metacarpiano Anular Pie
+    400176: Metacarpiano Medio
+    400178: Metacarpiano Medio Pie
+    400180: "Metacarpiano Me\xF1ique"
+    400182: "Metacarpiano Me\xF1ique Pie"
+    400184: Metacarpiano Pulgar
+    400186: Metacarpiano Pulgar Pie
+    400188: "Metacarpiano \xCDndice"
+    400190: "Metacarpiano \xCDndice Pie"
+    400192: "Om\xF3plato"
+    400194: "Peron\xE9"
+    400196: Pie
+    400198: Pierna
+    400200: "Primera y Segunda Cu\xF1a"
+    400202: "P\xE9lvis"
+    400204: "P\xE9lvis 1"
+    400206: "P\xE9lvis 2"
+    400208: Radio
+    400210: "R\xF3tula"
+    400212: Sacro
+    400214: Tibia
+    400216: "V\xE9rtebra Cervical 01"
+    400218: "V\xE9rtebra Cervical 02"
+    400220: "V\xE9rtebra Cervical 03"
+    400222: "V\xE9rtebra Cervical 04"
+    400224: "V\xE9rtebra Cervical 05"
+    400226: "V\xE9rtebra Cervical 06"
+    400228: "V\xE9rtebra Lumbar 01"
+    400230: "V\xE9rtebra Lumbar 02"
+    400232: "V\xE9rtebra Lumbar 03"
+    400234: "V\xE9rtebra Lumbar 04"
+    400236: "V\xE9rtebra Lumbar 05"
+    400238: "V\xE9rtebra Tor\xE1cica 01"
+    400240: "V\xE9rtebra Tor\xE1cica 02"
+    400242: "V\xE9rtebra Tor\xE1cica 03"
+    400244: "V\xE9rtebra Tor\xE1cica 04"
+    400246: "V\xE9rtebra Tor\xE1cica 05"
+    400248: "V\xE9rtebra Tor\xE1cica 06"
+    400250: "V\xE9rtebra Tor\xE1cica 07"
+    400252: "V\xE9rtebra Tor\xE1cica 08"
+    400254: "V\xE9rtebra Tor\xE1cica 09"
+    400256: "V\xE9rtebra Tor\xE1cica 10"
+    400258: "V\xE9rtebra Tor\xE1cica 11"
+    400260: "V\xE9rtebra Tor\xE1cica 12"
+    400262: "V\xE9rtebra Tor\xE1cica 13"
+    400264: "V\xE9rtebras"
+    400266: "V\xE9rtebras Cervicales"
+    400268: "V\xE9rtebras Lumbares"
+    400270: "V\xE9rtebras Tor\xE1cicas"
+    2300000: "Arco P\xFAbico"
+    2300002: "Astr\xE1galo"
+    2300004: "Calc\xE1neo"
+    2300006: "Cart\xEDlago Costal Derecho 01"
+    2300008: "Cart\xEDlago Costal Derecho 02"
+    2300010: "Cart\xEDlago Costal Derecho 03"
+    2300012: "Cart\xEDlago Costal Derecho 04"
+    2300014: "Cart\xEDlago Costal Derecho 05"
+    2300016: "Cart\xEDlago Costal Derecho 06"
+    2300018: "Cart\xEDlago Costal Izquierdo 01"
+    2300020: "Cart\xEDlago Costal Izquierdo 02"
+    2300022: "Cart\xEDlago Costal Izquierdo 03"
+    2300024: "Cart\xEDlago Costal Izquierdo 04"
+    2300026: "Cart\xEDlago Costal Izquierdo 05"
+    2300028: "Cart\xEDlago Costal Izquierdo 06"
+    2300030: "Clav\xEDcula"
+    2300032: Costilla Flotante Derecha 01
+    2300034: Costilla Flotante Derecha 02
+    2300036: Costilla Flotante Izquierda 01
+    2300038: Costilla Flotante Izquierda 02
+    2300040: Costilla Verdadera Derecha 01
+    2300042: Costilla Verdadera Derecha 02
+    2300044: Costilla Verdadera Derecha 03
+    2300046: Costilla Verdadera Derecha 04
+    2300048: Costilla Verdadera Derecha 05
+    2300050: Costilla Verdadera Derecha 06
+    2300052: Costilla Verdadera Derecha 07
+    2300054: Costilla Verdadera Derecha 08
+    2300056: Costilla Verdadera Derecha 09
+    2300058: Costilla Verdadera Derecha 10
+    2300060: Costilla Verdadera Izquierda 01
+    2300062: Costilla Verdadera Izquierda 02
+    2300064: Costilla Verdadera Izquierda 03
+    2300066: Costilla Verdadera Izquierda 04
+    2300068: Costilla Verdadera Izquierda 05
+    2300070: Costilla Verdadera Izquierda 06
+    2300072: Costilla Verdadera Izquierda 07
+    2300074: Costilla Verdadera Izquierda 08
+    2300076: Costilla Verdadera Izquierda 09
+    2300078: Costilla Verdadera Izquierda 10
+    2300080: Coxis
+    2300082: "Cr\xE1neo 1"
+    2300084: "Cuboides y Tercer Cu\xF1a"
+    2300086: "C\xFAbito"
+    2300088: Discos Intervertebrales
+    2300090: Escafoides
+    2300092: Esternon
+    2300094: Falange Distal Anular
+    2300096: Falange Distal Anular Pie
+    2300098: Falange Distal Medio
+    2300100: Falange Distal Medio Pie
+    2300102: "Falange Distal Me\xF1ique"
+    2300104: "Falange Distal Me\xF1ique Pie"
+    2300106: Falange Distal Pulgar
+    2300108: Falange Distal Pulgar Pie
+    2300110: "Falange Distal \xCDndice"
+    2300112: "Falange Distal \xCDndice Pie"
+    2300114: Falange Medial Anular
+    2300116: Falange Medial Anular Pie
+    2300118: Falange Medial Medio
+    2300120: Falange Medial Medio Pie
+    2300122: "Falange Medial Me\xF1ique"
+    2300124: "Falange Medial Me\xF1ique Pie"
+    2300126: "Falange Medial \xCDndice"
+    2300128: "Falange Medial \xCDndice Pie"
+    2300130: Falange Proxima Pulgar
+    2300132: Falange Proximal Anular
+    2300134: Falange Proximal Anular Pie
+    2300136: Falange Proximal Medio
+    2300138: Falange Proximal Medio Pie
+    2300140: "Falange Proximal Me\xF1ique"
+    2300142: "Falange Proximal Me\xF1ique Pie"
+    2300144: Falange Proximal Pulgar Pie
+    2300146: "Falange Proximal \xCDndice Pie"
+    2300148: "Falange Pr\xF3xima \xCDndice"
+    2300150: "F\xE9mur"
+    2300152: Huesos del Carpo
+    2300154: Huesos del Carpo 1
+    2300156: "H\xFAmero"
+    2300158: "Mand\xEDbula"
+    2300160: Metacarpiano Anular
+    2300162: Metacarpiano Anular Pie
+    2300164: Metacarpiano Medio
+    2300166: Metacarpiano Medio Pie
+    2300168: "Metacarpiano Me\xF1ique"
+    2300170: "Metacarpiano Me\xF1ique Pie"
+    2300172: Metacarpiano Pulgar
+    2300174: Metacarpiano Pulgar Pie
+    2300176: "Metacarpiano \xCDndice"
+    2300178: "Metacarpiano \xCDndice Pie"
+    2300180: "Om\xF3plato"
+    2300182: "Peron\xE9"
+    2300184: "Primera y Segunda Cu\xF1a"
+    2300186: "P\xE9lvis 1"
+    2300188: "P\xE9lvis 2"
+    2300190: Radio
+    2300192: "R\xF3tula"
+    2300194: Sacro
+    2300196: Tibia
+    2300198: "V\xE9rtebra Cervical 01"
+    2300200: "V\xE9rtebra Cervical 02"
+    2300202: "V\xE9rtebra Cervical 03"
+    2300204: "V\xE9rtebra Cervical 04"
+    2300206: "V\xE9rtebra Cervical 05"
+    2300208: "V\xE9rtebra Cervical 06"
+    2300210: "V\xE9rtebra Lumbar 01"
+    2300212: "V\xE9rtebra Lumbar 02"
+    2300214: "V\xE9rtebra Lumbar 03"
+    2300216: "V\xE9rtebra Lumbar 04"
+    2300218: "V\xE9rtebra Lumbar 05"
+    2300220: "V\xE9rtebra Tor\xE1cica 01"
+    2300222: "V\xE9rtebra Tor\xE1cica 02"
+    2300224: "V\xE9rtebra Tor\xE1cica 03"
+    2300226: "V\xE9rtebra Tor\xE1cica 04"
+    2300228: "V\xE9rtebra Tor\xE1cica 05"
+    2300230: "V\xE9rtebra Tor\xE1cica 06"
+    2300232: "V\xE9rtebra Tor\xE1cica 07"
+    2300234: "V\xE9rtebra Tor\xE1cica 08"
+    2300236: "V\xE9rtebra Tor\xE1cica 09"
+    2300238: "V\xE9rtebra Tor\xE1cica 10"
+    2300240: "V\xE9rtebra Tor\xE1cica 11"
+    2300242: "V\xE9rtebra Tor\xE1cica 12"
+    2300244: "V\xE9rtebra Tor\xE1cica 13"
+    3300000: "Arco P\xFAbico"
+    3300002: "Astr\xE1galo"
+    3300004: "Calc\xE1neo"
+    3300006: "Cart\xEDlago Costal Derecho 01"
+    3300008: "Cart\xEDlago Costal Derecho 02"
+    3300010: "Cart\xEDlago Costal Derecho 03"
+    3300012: "Cart\xEDlago Costal Derecho 04"
+    3300014: "Cart\xEDlago Costal Derecho 05"
+    3300016: "Cart\xEDlago Costal Derecho 06"
+    3300018: "Cart\xEDlago Costal Izquierdo 01"
+    3300020: "Cart\xEDlago Costal Izquierdo 02"
+    3300022: "Cart\xEDlago Costal Izquierdo 03"
+    3300024: "Cart\xEDlago Costal Izquierdo 04"
+    3300026: "Cart\xEDlago Costal Izquierdo 05"
+    3300028: "Cart\xEDlago Costal Izquierdo 06"
+    3300030: "Clav\xEDcula"
+    3300032: Costilla Flotante Derecha 01
+    3300034: Costilla Flotante Derecha 02
+    3300036: Costilla Flotante Izquierda 01
+    3300038: Costilla Flotante Izquierda 02
+    3300040: Costilla Verdadera Derecha 01
+    3300042: Costilla Verdadera Derecha 02
+    3300044: Costilla Verdadera Derecha 03
+    3300046: Costilla Verdadera Derecha 04
+    3300048: Costilla Verdadera Derecha 05
+    3300050: Costilla Verdadera Derecha 06
+    3300052: Costilla Verdadera Derecha 07
+    3300054: Costilla Verdadera Derecha 08
+    3300056: Costilla Verdadera Derecha 09
+    3300058: Costilla Verdadera Derecha 10
+    3300060: Costilla Verdadera Izquierda 01
+    3300062: Costilla Verdadera Izquierda 02
+    3300064: Costilla Verdadera Izquierda 03
+    3300066: Costilla Verdadera Izquierda 04
+    3300068: Costilla Verdadera Izquierda 05
+    3300070: Costilla Verdadera Izquierda 06
+    3300072: Costilla Verdadera Izquierda 07
+    3300074: Costilla Verdadera Izquierda 08
+    3300076: Costilla Verdadera Izquierda 09
+    3300078: Costilla Verdadera Izquierda 10
+    3300080: Coxis
+    3300082: "Cr\xE1neo 1"
+    3300084: "Cuboides y Tercer Cu\xF1a"
+    3300086: "C\xFAbito"
+    3300088: Discos Intervertebrales
+    3300090: Escafoides
+    3300092: Esternon
+    3300094: Falange Distal Anular
+    3300096: Falange Distal Anular Pie
+    3300098: Falange Distal Medio
+    3300100: Falange Distal Medio Pie
+    3300102: "Falange Distal Me\xF1ique"
+    3300104: "Falange Distal Me\xF1ique Pie"
+    3300106: Falange Distal Pulgar
+    3300108: Falange Distal Pulgar Pie
+    3300110: "Falange Distal \xCDndice"
+    3300112: "Falange Distal \xCDndice Pie"
+    3300114: Falange Medial Anular
+    3300116: Falange Medial Anular Pie
+    3300118: Falange Medial Medio
+    3300120: Falange Medial Medio Pie
+    3300122: "Falange Medial Me\xF1ique"
+    3300124: "Falange Medial Me\xF1ique Pie"
+    3300126: "Falange Medial \xCDndice"
+    3300128: "Falange Medial \xCDndice Pie"
+    3300130: Falange Proxima Pulgar
+    3300132: Falange Proximal Anular
+    3300134: Falange Proximal Anular Pie
+    3300136: Falange Proximal Medio
+    3300138: Falange Proximal Medio Pie
+    3300140: "Falange Proximal Me\xF1ique"
+    3300142: "Falange Proximal Me\xF1ique Pie"
+    3300144: Falange Proximal Pulgar Pie
+    3300146: "Falange Proximal \xCDndice Pie"
+    3300148: "Falange Pr\xF3xima \xCDndice"
+    3300150: "F\xE9mur"
+    3300152: Huesos del Carpo
+    3300154: Huesos del Carpo 1
+    3300156: "H\xFAmero"
+    3300158: "Mand\xEDbula"
+    3300160: Metacarpiano Anular
+    3300162: Metacarpiano Anular Pie
+    3300164: Metacarpiano Medio
+    3300166: Metacarpiano Medio Pie
+    3300168: "Metacarpiano Me\xF1ique"
+    3300170: "Metacarpiano Me\xF1ique Pie"
+    3300172: Metacarpiano Pulgar
+    3300174: Metacarpiano Pulgar Pie
+    3300176: "Metacarpiano \xCDndice"
+    3300178: "Metacarpiano \xCDndice Pie"
+    3300180: "Om\xF3plato"
+    3300182: "Peron\xE9"
+    3300184: "Primera y Segunda Cu\xF1a"
+    3300186: "P\xE9lvis 1"
+    3300188: "P\xE9lvis 2"
+    3300190: Radio
+    3300192: "R\xF3tula"
+    3300194: Sacro
+    3300196: Tibia
+    3300198: "V\xE9rtebra Cervical 01"
+    3300200: "V\xE9rtebra Cervical 02"
+    3300202: "V\xE9rtebra Cervical 03"
+    3300204: "V\xE9rtebra Cervical 04"
+    3300206: "V\xE9rtebra Cervical 05"
+    3300208: "V\xE9rtebra Cervical 06"
+    3300210: "V\xE9rtebra Lumbar 01"
+    3300212: "V\xE9rtebra Lumbar 02"
+    3300214: "V\xE9rtebra Lumbar 03"
+    3300216: "V\xE9rtebra Lumbar 04"
+    3300218: "V\xE9rtebra Lumbar 05"
+    3300220: "V\xE9rtebra Tor\xE1cica 01"
+    3300222: "V\xE9rtebra Tor\xE1cica 02"
+    3300224: "V\xE9rtebra Tor\xE1cica 03"
+    3300226: "V\xE9rtebra Tor\xE1cica 04"
+    3300228: "V\xE9rtebra Tor\xE1cica 05"
+    3300230: "V\xE9rtebra Tor\xE1cica 06"
+    3300232: "V\xE9rtebra Tor\xE1cica 07"
+    3300234: "V\xE9rtebra Tor\xE1cica 08"
+    3300236: "V\xE9rtebra Tor\xE1cica 09"
+    3300238: "V\xE9rtebra Tor\xE1cica 10"
+    3300240: "V\xE9rtebra Tor\xE1cica 11"
+    3300242: "V\xE9rtebra Tor\xE1cica 12"
+    3300244: "V\xE9rtebra Tor\xE1cica 13"
+    4300000: Falange Distal Anular
+    4300002: "Falange Distal \xCDndice"
+    4300004: Falange Distal Medio
+    4300006: "Falange Distal Me\xF1ique"
+    4300008: "H\xFAmero"
+    4300010: Radio
+    4300012: "C\xFAbito"
+    4300014: Huesos del Carpo
+    4300016: Huesos del Carpo
+    4300018: "Metacarpiano Me\xF1ique"
+    4300020: "Falange Proximal Me\xF1ique"
+    4300022: "Falange Medial Me\xF1ique"
+    4300024: Falange Medial Anular
+    4300026: Falange Proximal Anular
+    4300028: Metacarpiano Anular
+    4300030: Metacarpiano Medio
+    4300032: Falange Proximal Medio
+    4300034: Falange Medial Medio
+    4300036: "Falange Medial \xCDndice"
+    4300038: Metacarpiano Pulgar
+    4300040: "Metacarpiano \xCDndice"
+    4300042: Falange Proxima Pulgar
+    4300044: "Falange Pr\xF3xima \xCDndice"
+    4300046: Falange Distal Pulgar
+    4300048: "Om\xF3plato"
+    4300050: "Clav\xEDcula"
+    4300052: "Mand\xEDbula"
+    4300054: "Cr\xE1neo"
+    4300056: "Metacarpiano \xCDndice Pie"
+    4300058: "Calc\xE1neo"
+    4300060: "Cuboides y Tercer Cu\xF1a"
+    4300062: Escafoides
+    4300064: Metacarpiano Anular Pie
+    4300066: "Primera y Segunda Cu\xF1a"
+    4300068: Falange Proximal Anular Pie
+    4300070: Metacarpiano Medio Pie
+    4300072: Metacarpiano Pulgar Pie
+    4300074: Falange Distal Medio Pie
+    4300076: Falange Distal Pulgar Pie
+    4300078: Falange Proximal Pulgar Pie
+    4300080: "Falange Distal \xCDndice Pie"
+    4300082: "Falange Medial \xCDndice Pie"
+    4300084: "Falange Proximal \xCDndice Pie"
+    4300086: Falange Proximal Medio Pie
+    4300088: Falange Medial Medio Pie
+    4300090: Falange Medial Anular Pie
+    4300092: Falange Distal Anular Pie
+    4300094: "Metacarpiano Me\xF1ique Pie"
+    4300096: "Falange Medial Me\xF1ique Pie"
+    4300098: "Falange Proximal Me\xF1ique Pie"
+    4300100: "Falange Distal Me\xF1ique Pie"
+    4300102: "Astr\xE1galo"
+    4300104: Tibia
+    4300106: "Peron\xE9"
+    4300108: "R\xF3tula"
+    4300110: "F\xE9mur"
+    4300112: Esternon
+    4300114: "Arco P\xFAbico"
+    4300116: "P\xE9lvis"
+    4300118: "P\xE9lvis"
+    4300120: Costilla Flotante Derecha 01
+    4300122: Costilla Flotante Derecha 02
+    4300124: Costilla Flotante Izquierda 01
+    4300126: Costilla Flotante Izquierda 02
+    4300128: "Cart\xEDlago Costal Derecho 01"
+    4300130: "Cart\xEDlago Costal Derecho 02"
+    4300132: "Cart\xEDlago Costal Derecho 03"
+    4300134: "Cart\xEDlago Costal Derecho 04"
+    4300136: "Cart\xEDlago Costal Derecho 05"
+    4300138: "Cart\xEDlago Costal Derecho 06"
+    4300140: "Cart\xEDlago Costal Izquierdo 02"
+    4300142: "Cart\xEDlago Costal Izquierdo 03"
+    4300144: "Cart\xEDlago Costal Izquierdo 04"
+    4300146: "Cart\xEDlago Costal Izquierdo 05"
+    4300148: "Cart\xEDlago Costal Izquierdo 06"
+    4300150: "Cart\xEDlago Costal Izquierdo 01"
+    4300152: Costilla Verdadera Izquierda 10
+    4300154: Costilla Verdadera Izquierda 09
+    4300156: Costilla Verdadera Izquierda 08
+    4300158: Costilla Verdadera Izquierda 07
+    4300160: Costilla Verdadera Izquierda 06
+    4300162: Costilla Verdadera Izquierda 05
+    4300164: Costilla Verdadera Izquierda 04
+    4300166: Costilla Verdadera Izquierda 03
+    4300168: Costilla Verdadera Izquierda 02
+    4300170: Costilla Verdadera Derecha 02
+    4300172: Costilla Verdadera Derecha 03
+    4300174: Costilla Verdadera Derecha 04
+    4300176: Costilla Verdadera Derecha 05
+    4300178: Costilla Verdadera Derecha 06
+    4300180: Costilla Verdadera Derecha 07
+    4300182: Costilla Verdadera Derecha 08
+    4300184: Costilla Verdadera Derecha 09
+    4300186: Costilla Verdadera Derecha 10
+    4300188: Costilla Verdadera Izquierda 01
+    4300190: Costilla Verdadera Derecha 01
+    4300192: Sacro
+    4300194: Coxis
+    4300196: "V\xE9rtebra Cervical 04"
+    4300198: "V\xE9rtebra Cervical 05"
+    4300200: "V\xE9rtebra Cervical 06"
+    4300202: "V\xE9rtebra Cervical 01"
+    4300204: "V\xE9rtebra Cervical 02"
+    4300206: "V\xE9rtebra Cervical 03"
+    4300208: "V\xE9rtebra Lumbar 01"
+    4300210: "V\xE9rtebra Lumbar 02"
+    4300212: "V\xE9rtebra Lumbar 03"
+    4300214: "V\xE9rtebra Lumbar 04"
+    4300216: "V\xE9rtebra Lumbar 05"
+    4300218: "V\xE9rtebra Tor\xE1cica 01"
+    4300220: "V\xE9rtebra Tor\xE1cica 02"
+    4300222: "V\xE9rtebra Tor\xE1cica 03"
+    4300224: "V\xE9rtebra Tor\xE1cica 04"
+    4300226: "V\xE9rtebra Tor\xE1cica 05"
+    4300228: "V\xE9rtebra Tor\xE1cica 06"
+    4300230: "V\xE9rtebra Tor\xE1cica 07"
+    4300232: "V\xE9rtebra Tor\xE1cica 08"
+    4300234: "V\xE9rtebra Tor\xE1cica 09"
+    4300236: "V\xE9rtebra Tor\xE1cica 10"
+    4300238: "V\xE9rtebra Tor\xE1cica 11"
+    4300240: "V\xE9rtebra Tor\xE1cica 12"
+    4300242: "V\xE9rtebra Tor\xE1cica 13"
+    4300244: Discos Intervertebrales
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

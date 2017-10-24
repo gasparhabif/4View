@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: d580bc23a16cc6b47b4430194fa1b45c
+timeCreated: 1464293634
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: atras
+    100002: AUTO
+    100004: Auto
+    100006: //RootNode
+    100008: base
+    100010: capo
+    100012: contraparabrisas
+    100014: frente
+    100016: llanta_rueda_delantera_derecha
+    100018: llanta_rueda_delantera_isquierda
+    100020: llanta_rueda_trasera_derecha
+    100022: llantarueda_trasera_isquierda
+    100024: luz_delantera_derecha
+    100026: luz_delanteraq_isquierda
+    100028: luz_trasera_derecha
+    100030: luz_trasera_isquierda
+    100032: parabrisas
+    100034: puerta_isquierda
+    100036: rueda_delantera_derecha
+    100038: rueda_delanteraisquierda
+    100040: rueda_derecha_trasera
+    100042: rueda_trasera_isquierda
+    100044: techo
+    100046: ventana trasera isquierda
+    100048: ventana_1_derecha
+    100050: ventana_derecha
+    100052: ventana_isquierda
+    400000: atras
+    400002: AUTO
+    400004: Auto
+    400006: //RootNode
+    400008: base
+    400010: capo
+    400012: contraparabrisas
+    400014: frente
+    400016: llanta_rueda_delantera_derecha
+    400018: llanta_rueda_delantera_isquierda
+    400020: llanta_rueda_trasera_derecha
+    400022: llantarueda_trasera_isquierda
+    400024: luz_delantera_derecha
+    400026: luz_delanteraq_isquierda
+    400028: luz_trasera_derecha
+    400030: luz_trasera_isquierda
+    400032: parabrisas
+    400034: puerta_isquierda
+    400036: rueda_delantera_derecha
+    400038: rueda_delanteraisquierda
+    400040: rueda_derecha_trasera
+    400042: rueda_trasera_isquierda
+    400044: techo
+    400046: ventana trasera isquierda
+    400048: ventana_1_derecha
+    400050: ventana_derecha
+    400052: ventana_isquierda
+    2300000: atras
+    2300002: //RootNode
+    2300004: base
+    2300006: capo
+    2300008: contraparabrisas
+    2300010: frente
+    2300012: llanta_rueda_delantera_derecha
+    2300014: llanta_rueda_delantera_isquierda
+    2300016: llanta_rueda_trasera_derecha
+    2300018: llantarueda_trasera_isquierda
+    2300020: luz_delantera_derecha
+    2300022: luz_delanteraq_isquierda
+    2300024: luz_trasera_derecha
+    2300026: luz_trasera_isquierda
+    2300028: parabrisas
+    2300030: puerta_isquierda
+    2300032: rueda_delantera_derecha
+    2300034: rueda_delanteraisquierda
+    2300036: rueda_derecha_trasera
+    2300038: rueda_trasera_isquierda
+    2300040: techo
+    2300042: ventana trasera isquierda
+    2300044: ventana_1_derecha
+    2300046: ventana_derecha
+    2300048: ventana_isquierda
+    3300000: atras
+    3300002: //RootNode
+    3300004: base
+    3300006: capo
+    3300008: contraparabrisas
+    3300010: frente
+    3300012: llanta_rueda_delantera_derecha
+    3300014: llanta_rueda_delantera_isquierda
+    3300016: llanta_rueda_trasera_derecha
+    3300018: llantarueda_trasera_isquierda
+    3300020: luz_delantera_derecha
+    3300022: luz_delanteraq_isquierda
+    3300024: luz_trasera_derecha
+    3300026: luz_trasera_isquierda
+    3300028: parabrisas
+    3300030: puerta_isquierda
+    3300032: rueda_delantera_derecha
+    3300034: rueda_delanteraisquierda
+    3300036: rueda_derecha_trasera
+    3300038: rueda_trasera_isquierda
+    3300040: techo
+    3300042: ventana trasera isquierda
+    3300044: ventana_1_derecha
+    3300046: ventana_derecha
+    3300048: ventana_isquierda
+    4300000: puertaderecha
+    4300002: llanta_rueda_trasera_derecha
+    4300004: rueda_derecha_trasera
+    4300006: llantarueda_trasera_isquierda
+    4300008: rueda_trasera_isquierda
+    4300010: rueda_delantera_derecha
+    4300012: llanta_rueda_delantera_derecha
+    4300014: rueda_delanteraisquierda
+    4300016: llanta_rueda_delantera_isquierda
+    4300018: puerta_isquierda
+    4300020: ventana_isquierda
+    4300022: luz_delanteraq_isquierda
+    4300024: luz_delantera_derecha
+    4300026: luz_trasera_isquierda
+    4300028: luz_trasera_derecha
+    4300030: ventana_1_derecha
+    4300032: parabrisas
+    4300034: contraparabrisas
+    4300036: ventana_derecha
+    4300038: ventana trasera isquierda
+    4300040: base
+    4300042: techo
+    4300044: capo
+    4300046: frente
+    4300048: atras
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

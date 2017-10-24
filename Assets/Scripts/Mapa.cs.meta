@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b40b10c7624640e4f8fa06d9f4e904fa
+timeCreated: 1464807194
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Camino: {instanceID: 0}
+  - Vacio: {instanceID: 0}
+  - PerderSatelite: {instanceID: 0}
+  - ActivarSatelite: {instanceID: 0}
+  - Speed: {instanceID: 0}
+  - Salto: {instanceID: 0}
+  - Conos: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - Nafta: {instanceID: 0}
+  - SateliteObj: {instanceID: 0}
+  - Satelite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

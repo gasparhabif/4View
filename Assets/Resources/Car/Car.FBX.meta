@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: f639541c4327c21459720437f20e975f
+timeCreated: 1477969451
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box002
+    100004: Box003
+    100006: Box004
+    100008: Box005
+    100010: //RootNode
+    100012: CARCAZA
+    100014: CUBRE LUZ
+    100016: Cylinder002
+    100018: Cylinder004
+    100020: Cylinder005
+    100022: Cylinder016
+    100024: DETALLE ADELANTE
+    100026: LOGO
+    100028: LUZ DE MIEBLA
+    100030: LUZ EN SI
+    100032: PARTE ADELANTE
+    100034: PUERTA DELANTERAS
+    100036: PUERTAS TRASERAS
+    100038: RESPIRADORES
+    100040: RUEDAS DELANTERAS
+    100042: Tube010
+    100044: Tube011
+    100046: Tube012
+    100048: Tube013
+    100050: Tube014
+    100052: Tube015
+    100054: Tube016
+    100056: Tube017
+    100058: VENTANJAS DELANTERAS
+    100060: vidios luces traseras
+    100062: VIDRIO DE LUZ
+    400000: Box001
+    400002: Box002
+    400004: Box003
+    400006: Box004
+    400008: Box005
+    400010: //RootNode
+    400012: CARCAZA
+    400014: CUBRE LUZ
+    400016: Cylinder002
+    400018: Cylinder004
+    400020: Cylinder005
+    400022: Cylinder016
+    400024: DETALLE ADELANTE
+    400026: LOGO
+    400028: LUZ DE MIEBLA
+    400030: LUZ EN SI
+    400032: PARTE ADELANTE
+    400034: PUERTA DELANTERAS
+    400036: PUERTAS TRASERAS
+    400038: RESPIRADORES
+    400040: RUEDAS DELANTERAS
+    400042: Tube010
+    400044: Tube011
+    400046: Tube012
+    400048: Tube013
+    400050: Tube014
+    400052: Tube015
+    400054: Tube016
+    400056: Tube017
+    400058: VENTANJAS DELANTERAS
+    400060: vidios luces traseras
+    400062: VIDRIO DE LUZ
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: Box004
+    2300008: Box005
+    2300010: CARCAZA
+    2300012: CUBRE LUZ
+    2300014: Cylinder002
+    2300016: Cylinder004
+    2300018: Cylinder005
+    2300020: Cylinder016
+    2300022: DETALLE ADELANTE
+    2300024: LOGO
+    2300026: LUZ DE MIEBLA
+    2300028: LUZ EN SI
+    2300030: PARTE ADELANTE
+    2300032: RESPIRADORES
+    2300034: Tube010
+    2300036: Tube011
+    2300038: Tube012
+    2300040: Tube013
+    2300042: Tube014
+    2300044: Tube015
+    2300046: Tube016
+    2300048: Tube017
+    2300050: vidios luces traseras
+    2300052: VIDRIO DE LUZ
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: Box004
+    3300008: Box005
+    3300010: CARCAZA
+    3300012: CUBRE LUZ
+    3300014: Cylinder002
+    3300016: Cylinder004
+    3300018: Cylinder005
+    3300020: Cylinder016
+    3300022: DETALLE ADELANTE
+    3300024: LOGO
+    3300026: LUZ DE MIEBLA
+    3300028: LUZ EN SI
+    3300030: PARTE ADELANTE
+    3300032: RESPIRADORES
+    3300034: Tube010
+    3300036: Tube011
+    3300038: Tube012
+    3300040: Tube013
+    3300042: Tube014
+    3300044: Tube015
+    3300046: Tube016
+    3300048: Tube017
+    3300050: vidios luces traseras
+    3300052: VIDRIO DE LUZ
+    4300000: CARCAZA
+    4300002: RESPIRADORES
+    4300004: PARTE ADELANTE
+    4300006: LOGO
+    4300008: LUZ DE MIEBLA
+    4300010: DETALLE ADELANTE
+    4300012: Box001
+    4300014: Box003
+    4300016: Box004
+    4300018: Cylinder005
+    4300020: Box005
+    4300022: Cylinder002
+    4300024: Tube010
+    4300026: Tube011
+    4300028: Tube012
+    4300030: Tube013
+    4300032: LUZ EN SI
+    4300034: VIDRIO DE LUZ
+    4300036: CUBRE LUZ
+    4300038: Cylinder004
+    4300040: vidios luces traseras
+    4300042: Box002
+    4300044: Cylinder016
+    4300046: Tube014
+    4300048: Tube015
+    4300050: Tube016
+    4300052: Tube017
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

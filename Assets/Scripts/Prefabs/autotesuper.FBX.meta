@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 02f2991a45874c94d8a37d3e0b357783
+timeCreated: 1466088122
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Auto
+    100002: auto
+    100004: //RootNode
+    100006: contraparabrisas
+    100008: hbdcvihjdasfbn
+    100010: llanta rueda delantera derecha
+    100012: llanta rueda delantera isquierda
+    100014: llanta rueda trasera derecha
+    100016: llantarueda trasera isquierda
+    100018: luz delantera derecha
+    100020: luz delanteraq isquierda
+    100022: luz trasera derecha
+    100024: luz trasera isquierda
+    100026: parabrisas
+    100028: puerta isquierda
+    100030: puertaderecha
+    100032: rueda delantera derecha
+    100034: rueda delanteraisquierda
+    100036: rueda derecha trasera
+    100038: rueda trasera isquierda
+    100040: ventana 1 derecha
+    100042: ventana derecha
+    100044: ventana isquierda
+    400000: Auto
+    400002: auto
+    400004: //RootNode
+    400006: contraparabrisas
+    400008: hbdcvihjdasfbn
+    400010: llanta rueda delantera derecha
+    400012: llanta rueda delantera isquierda
+    400014: llanta rueda trasera derecha
+    400016: llantarueda trasera isquierda
+    400018: luz delantera derecha
+    400020: luz delanteraq isquierda
+    400022: luz trasera derecha
+    400024: luz trasera isquierda
+    400026: parabrisas
+    400028: puerta isquierda
+    400030: puertaderecha
+    400032: rueda delantera derecha
+    400034: rueda delanteraisquierda
+    400036: rueda derecha trasera
+    400038: rueda trasera isquierda
+    400040: ventana 1 derecha
+    400042: ventana derecha
+    400044: ventana isquierda
+    2300000: Auto
+    2300002: contraparabrisas
+    2300004: llanta rueda delantera derecha
+    2300006: llanta rueda delantera isquierda
+    2300008: llanta rueda trasera derecha
+    2300010: llantarueda trasera isquierda
+    2300012: luz delantera derecha
+    2300014: luz delanteraq isquierda
+    2300016: luz trasera derecha
+    2300018: luz trasera isquierda
+    2300020: parabrisas
+    2300022: puerta isquierda
+    2300024: puertaderecha
+    2300026: rueda delantera derecha
+    2300028: rueda delanteraisquierda
+    2300030: rueda derecha trasera
+    2300032: rueda trasera isquierda
+    2300034: ventana 1 derecha
+    2300036: ventana derecha
+    2300038: ventana isquierda
+    3300000: Auto
+    3300002: contraparabrisas
+    3300004: llanta rueda delantera derecha
+    3300006: llanta rueda delantera isquierda
+    3300008: llanta rueda trasera derecha
+    3300010: llantarueda trasera isquierda
+    3300012: luz delantera derecha
+    3300014: luz delanteraq isquierda
+    3300016: luz trasera derecha
+    3300018: luz trasera isquierda
+    3300020: parabrisas
+    3300022: puerta isquierda
+    3300024: puertaderecha
+    3300026: rueda delantera derecha
+    3300028: rueda delanteraisquierda
+    3300030: rueda derecha trasera
+    3300032: rueda trasera isquierda
+    3300034: ventana 1 derecha
+    3300036: ventana derecha
+    3300038: ventana isquierda
+    4300000: llantarueda trasera isquierda
+    4300002: rueda trasera isquierda
+    4300004: llanta rueda trasera derecha
+    4300006: rueda derecha trasera
+    4300008: llanta rueda delantera isquierda
+    4300010: rueda delanteraisquierda
+    4300012: llanta rueda delantera derecha
+    4300014: rueda delantera derecha
+    4300016: puerta isquierda
+    4300018: ventana isquierda
+    4300020: luz delanteraq isquierda
+    4300022: luz delantera derecha
+    4300024: luz trasera isquierda
+    4300026: luz trasera derecha
+    4300028: ventana 1 derecha
+    4300030: parabrisas
+    4300032: contraparabrisas
+    4300034: puertaderecha
+    4300036: ventana derecha
+    4300038: Auto
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: f77eb5703165bc54ebf80532bfd059d9
+timeCreated: 1464183774
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ALERONES
+    100002: //RootNode
+    100004: Baul
+    100006: body
+    100008: Box001
+    100010: Capo
+    100012: "Ca\xF1o de escape"
+    100014: cubreruedas
+    100016: Cylinder001
+    100018: Cylinder002
+    100020: Cylinder003
+    100022: Cylinder004
+    100024: Detalles
+    100026: espejito derecho
+    100028: Espejito izquierdo
+    100030: flor
+    100032: parachoques delantero
+    100034: Parte abajo atras
+    100036: parte baja adelante
+    100038: patente
+    100040: patente001
+    100042: Plane006
+    100044: Plane007
+    100046: puerta derecha
+    100048: Puerta izquierda
+    100050: Regilla adelante
+    100052: tapa de las ruedas
+    100054: techo
+    100056: venatana trasera
+    100058: Ventana delantera
+    100060: ventana derecha
+    100062: Ventana izquierda
+    400000: ALERONES
+    400002: //RootNode
+    400004: Baul
+    400006: body
+    400008: Box001
+    400010: Capo
+    400012: "Ca\xF1o de escape"
+    400014: cubreruedas
+    400016: Cylinder001
+    400018: Cylinder002
+    400020: Cylinder003
+    400022: Cylinder004
+    400024: Detalles
+    400026: espejito derecho
+    400028: Espejito izquierdo
+    400030: flor
+    400032: parachoques delantero
+    400034: Parte abajo atras
+    400036: parte baja adelante
+    400038: patente
+    400040: patente001
+    400042: Plane006
+    400044: Plane007
+    400046: puerta derecha
+    400048: Puerta izquierda
+    400050: Regilla adelante
+    400052: tapa de las ruedas
+    400054: techo
+    400056: venatana trasera
+    400058: Ventana delantera
+    400060: ventana derecha
+    400062: Ventana izquierda
+    2300000: ALERONES
+    2300002: Baul
+    2300004: body
+    2300006: Box001
+    2300008: Capo
+    2300010: "Ca\xF1o de escape"
+    2300012: cubreruedas
+    2300014: Cylinder001
+    2300016: Cylinder002
+    2300018: Cylinder003
+    2300020: Cylinder004
+    2300022: Detalles
+    2300024: espejito derecho
+    2300026: Espejito izquierdo
+    2300028: flor
+    2300030: parachoques delantero
+    2300032: Parte abajo atras
+    2300034: parte baja adelante
+    2300036: patente
+    2300038: patente001
+    2300040: Plane006
+    2300042: Plane007
+    2300044: puerta derecha
+    2300046: Puerta izquierda
+    2300048: Regilla adelante
+    2300050: tapa de las ruedas
+    2300052: techo
+    2300054: venatana trasera
+    2300056: Ventana delantera
+    2300058: ventana derecha
+    2300060: Ventana izquierda
+    3300000: ALERONES
+    3300002: Baul
+    3300004: body
+    3300006: Box001
+    3300008: Capo
+    3300010: "Ca\xF1o de escape"
+    3300012: cubreruedas
+    3300014: Cylinder001
+    3300016: Cylinder002
+    3300018: Cylinder003
+    3300020: Cylinder004
+    3300022: Detalles
+    3300024: espejito derecho
+    3300026: Espejito izquierdo
+    3300028: flor
+    3300030: parachoques delantero
+    3300032: Parte abajo atras
+    3300034: parte baja adelante
+    3300036: patente
+    3300038: patente001
+    3300040: Plane006
+    3300042: Plane007
+    3300044: puerta derecha
+    3300046: Puerta izquierda
+    3300048: Regilla adelante
+    3300050: tapa de las ruedas
+    3300052: techo
+    3300054: venatana trasera
+    3300056: Ventana delantera
+    3300058: ventana derecha
+    3300060: Ventana izquierda
+    4300000: body
+    4300002: ALERONES
+    4300004: Puerta izquierda
+    4300006: Ventana izquierda
+    4300008: Espejito izquierdo
+    4300010: flor
+    4300012: "Ca\xF1o de escape"
+    4300014: Capo
+    4300016: Ventana delantera
+    4300018: venatana trasera
+    4300020: parte baja adelante
+    4300022: parachoques delantero
+    4300024: tapa de las ruedas
+    4300026: cubreruedas
+    4300028: techo
+    4300030: Baul
+    4300032: Parte abajo atras
+    4300034: Detalles
+    4300036: Regilla adelante
+    4300038: Box001
+    4300040: patente
+    4300042: Plane006
+    4300044: patente001
+    4300046: Plane007
+    4300048: puerta derecha
+    4300050: ventana derecha
+    4300052: espejito derecho
+    4300054: Cylinder001
+    4300056: Cylinder002
+    4300058: Cylinder003
+    4300060: Cylinder004
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 89ec9595677cbf641b7bbf6a8f2e65d0
+timeCreated: 1475673081
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - controlador: {fileID: 11400000, guid: c9f2277f2b4414ff9abf05e783890171, type: 2}
+  - world: {fileID: 193632, guid: fbddf686d64e51f45be3745cb2ee3580, type: 2}
+  - manos: {fileID: 100220, guid: fb2d6e2c3c6ef431caaff3cf8beb3b75, type: 2}
+  - can: {instanceID: 0}
+  - polo: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
