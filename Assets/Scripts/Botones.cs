@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using Leap;
+using UnityEngine.SceneManagement;
 
 public class Botones : MonoBehaviour {
 
@@ -45,7 +46,7 @@ public class Botones : MonoBehaviour {
 		if (chau == true) {
 			chau = false;
 			if (chau == false) {
-				Application.LoadLevel (0);
+                SceneManager.LoadScene(0);
 			}
 		}
 	}
@@ -112,7 +113,7 @@ public class Botones : MonoBehaviour {
 							CerrarMensaje (false);//Esconde todo el panel de mensaje
 							Mensaje = true;
 							chau = true;
-							Application.LoadLevel (0);
+							SceneManager.LoadScene (7);
 						} else {
 							if (mal > punta) {
 								mostrar = "Perdiste! ";

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BotonesSeba : MonoBehaviour
@@ -49,7 +50,7 @@ public class BotonesSeba : MonoBehaviour
 				Interaccion.ModificarComponentesCanvas (true, ref canvasmenuprincipal);
 			} else {
 				if(Interaccion.dedos_extendidos == 1)
-                     LoadLevel(3);
+                     SceneManager.LoadScene(7);
 			}
 			break;
 		case "Button_ZoomIn":
@@ -99,9 +100,6 @@ public class BotonesSeba : MonoBehaviour
 	{
 			Destroy(GameObject.Find("temp_file"));
 			archivo = null;
-	}
-	public void LoadLevel (int level){
-			Application.LoadLevel (level);
 	}
 	public void Salir(){
 		Application.Quit();

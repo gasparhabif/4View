@@ -3,10 +3,22 @@ using System.Collections;
 using UnityEngine.UI;
 using Leap;
 using WindowsInput;
+using UnityEngine.SceneManagement;
 
 public class MenuPrincipal : MonoBehaviour {
 
-	private string Boton = "";
+    #region Info Escenas
+    // 0- EarthMotion
+    // 1- Visualizador
+    // 2- Menu Rolling
+    // 3- Colores Rolling
+    // 4- Juego Rolling
+    // 5- Gano Rolling
+    // 6- Esqueleto
+    // 7- MenuPrincipal
+    #endregion
+    #region Variables
+    private string boton = "";
 	private Controller controller;
 
 	public HandController controlador;
@@ -16,9 +28,10 @@ public class MenuPrincipal : MonoBehaviour {
 	Frame frameAnt;
 
 	int cerrarapp = 0, tiempoentregestos = 0;
+    #endregion
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		controller = controlador.GetLeapController();
 		controller.EnableGesture (Gesture.GestureType.TYPECIRCLE);
 		controller.Config.SetFloat ("Gesture.Circle.MinRadius", 30.0f);
@@ -49,15 +62,20 @@ public class MenuPrincipal : MonoBehaviour {
 			dedos_extendidos++;//cuento todos los dedos que estan extendidos de la FingerList dedos        
 		
 		if (dedos_extendidos == 5) {
-			Debug.Log ("Awanteaaaa");
-			if (Boton == "Body")
-				Application.LoadLevel (0);
-			else if (Boton == "Earth")
-				Application.LoadLevel (4);
-			else if (Boton == "Visual")
-				Application.LoadLevel (5);
-			else if (Boton == "Rolling")
-				Application.LoadLevel (6);
+            switch (boton)
+            {
+                case "BodyMotion":
+                    break;
+                case "EarthMotion":
+                    SceneManager.LoadScene(0);
+                    break;
+                case "VisualMotion":
+                    SceneManager.LoadScene(1);
+                    break;
+                case "RollingRoshakazu":
+                    SceneManager.LoadScene(4);
+                    break;
+            }
 		}
 		for (int i = 0; i < gestos.Count; i++) {
 			if (gestos [i].Type == Gesture.GestureType.TYPECIRCLE && dedos_extendidos == 1) {
@@ -71,17 +89,6 @@ public class MenuPrincipal : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider collider){
-		Debug.Log("holaaaaa");
-		Debug.Log(this.name);
-		Debug.Log(this.gameObject.name);
-		if (this.name == "BodyMotion")
-			Boton = "Body";
-		else if (this.gameObject.name == "EarthMotion")
-			Boton = "Earth";
-		else if (this.gameObject.name == "VisualMotion")
-			Boton = "Visual";
-		else if (this.gameObject.name == "RollingRoshakazu")
-			Boton = "Rolling";
-		
+        boton = this.gameObject.name;
 	}
 }

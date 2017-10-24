@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Leap;
 using WindowsInput;
+using UnityEngine.SceneManagement;
 
 namespace WPM
 {
@@ -16,11 +17,9 @@ namespace WPM
         private HandModel modelos_manos;
         public static int rangoCamera = 0;
 
-        public GameObject world;
-        public GameObject manos;
+        public GameObject world, manos, canvas_mano = null;
         public Canvas can, quiz;
         public Text polo;
-        public GameObject canvas_mano = null;
         public Camera camara;
         private Button boton;
 
@@ -55,10 +54,8 @@ namespace WPM
 			if (nombreBoton == "Zoom In" || nombreBoton == "Zoom Out")
                     nombreBoton = nombreBotonAnterior;
 			if (nombreBoton == "Exit"&&dedos_extendidos==5)
-				Application.LoadLevel (0);
+				SceneManager.LoadScene (7);
             boton.onClick.Invoke();
-
-
         }
         #endregion
         void Update()
@@ -280,12 +277,6 @@ namespace WPM
                     rangoCamera--;
                 }
 
-            }
-            #endregion
-            #region Exit
-            public void Salir()
-            {
-				Application.LoadLevel (3);
             }
             #endregion
             #region BotonesZoom

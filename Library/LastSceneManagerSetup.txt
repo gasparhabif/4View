@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Escenas/MenuPrincipal.unity
+- path: Assets/Escenas/Earth Motion/EarthMotion.unity
   isLoaded: 1
   isActive: 1
