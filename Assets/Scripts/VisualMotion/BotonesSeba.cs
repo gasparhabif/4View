@@ -98,9 +98,11 @@ public class BotonesSeba : MonoBehaviour
         archivo.GetComponent<Transform>().position = new Vector3(0f, 2f, 1f);
         archivo.name = "temp_file";
         BoxCollider bc = archivo.AddComponent<BoxCollider>() as BoxCollider;    // Agrego un BoxCollider para que se pueda agarrar
-        archivo.GetComponent<BoxCollider>().isTrigger = true;
+        //archivo.GetComponent<BoxCollider>().isTrigger = true;
+        bc.isTrigger = true;
         Rigidbody rb = archivo.AddComponent<Rigidbody>() as Rigidbody;          // Agrego un Rigidbody por sus fisicas
-        archivo.GetComponent<Rigidbody>().useGravity = false;
+        //archivo.GetComponent<Rigidbody>().useGravity = false;
+        rb.useGravity = false;
 
     }
     public void DestruirArchivoActual(ref GameObject archivo)
