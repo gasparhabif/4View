@@ -25,7 +25,7 @@ public class MenuPrincipal : MonoBehaviour {
 	public Hand firstHand;
 
 	Frame frameActual;
-	Frame frameAnt;
+	 
 
 	int cerrarapp = 0, tiempoentregestos = 0;
     #endregion
@@ -45,8 +45,8 @@ public class MenuPrincipal : MonoBehaviour {
 			tiempoentregestos = 0;
 		}
 		frameActual = controller.Frame(); //obtengo la informacion del leap de un frame
-		int ant = (int)frameActual.Id - 1;
-		frameAnt = controller.Frame(ant);
+		 
+		 
 		GestureList gestos = frameActual.Gestures ();
 
 		if (frameActual.Hands.Count > 0)

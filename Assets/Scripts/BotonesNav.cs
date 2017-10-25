@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using Leap;
+using UnityEngine.SceneManagement;
 
 public class BotonesNav : MonoBehaviour {
 
@@ -14,7 +15,7 @@ public class BotonesNav : MonoBehaviour {
 	public Hand firstHand;
 
 	Frame frameActual;
-	Frame frameAnt;
+	 
 
 	private Controller controller;
 	private bool Listo1 = false, Listo2 = false, Listo3 = false;
@@ -46,9 +47,6 @@ public class BotonesNav : MonoBehaviour {
 	}
 	void Update(){
 		frameActual = controller.Frame(); //obtengo la informacion del leap de un frame
-		int ant = (int)frameActual.Id - 1;
-		frameAnt = controller.Frame(ant);
-
 
 		if (frameActual.Hands.Count > 0)
 		{
@@ -95,7 +93,7 @@ public class BotonesNav : MonoBehaviour {
 						if (chau == true) {
 							chau = false;
 							if (chau == false) {
-								Application.LoadLevel (0);
+								 SceneManager.LoadScene (7);
 							}
 						}
 						//chau = true;
@@ -117,8 +115,6 @@ public class BotonesNav : MonoBehaviour {
 				Aviso = -1;//Pone avios en -1 para que no se confunda ni con 0 ni uno
 			}
 		}else {
-				string Nivel;
-				Nivel = cambiarDeIntAString ();//cambia los niveles(8,9,10) a palabras(Principiante, Intermedio y Avanzado)
 				if (this.gameObject.name == "Comenzar") {//Pregunta si el objeto tocado es el boton Comenzar
 				if (dedos_extendidos == 2) {
 					SelectNav.elegido = false;
@@ -209,7 +205,7 @@ public class BotonesNav : MonoBehaviour {
 		InforOcultar(false);////Esconde el panel de informacion
 		todofalse (false);//esconde casi todo
 		Mensaje = false;
-		//Application.LoadLevel (0);
+		// SceneManager.LoadScene (0);
 	}
 
 }

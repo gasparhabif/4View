@@ -13,7 +13,7 @@ public class Botones : MonoBehaviour {
 	public UnityEngine.UI.Image LoadingBar, Frame, ImgAviso;
 
 	Frame frameActual;
-	Frame frameAnt;
+	 
 
 	public static string[,] info = new string[cant,2];
 	public static bool presionado = false, yapaso = false, Mensaje=false;
@@ -56,8 +56,8 @@ public class Botones : MonoBehaviour {
 		if (Seleccionado.elegido == true && yapaso == false)
 			Proxim.GetComponent<UnityEngine.UI.Image> ().color = Color.green;
 		frameActual = controller.Frame(); //obtengo la informacion del leap de un frame
-		int ant = (int)frameActual.Id - 1;
-		frameAnt = controller.Frame(ant);
+		 
+		 
 
 
 		if (frameActual.Hands.Count > 0)

@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using Leap;
+using UnityEngine.SceneManagement;
 
 public class NivelesJuego : MonoBehaviour {
 	
@@ -11,7 +12,6 @@ public class NivelesJuego : MonoBehaviour {
 	public Hand firstHand;
 
 	Frame frameActual;
-	Frame frameAnt;
 
 	private Controller controller;
 	private bool Listo1 = false, Listo2 = false, Listo3 = false;
@@ -29,9 +29,6 @@ public class NivelesJuego : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		frameActual = controller.Frame(); //obtengo la informacion del leap de un frame
-		int ant = (int)frameActual.Id - 1;
-		frameAnt = controller.Frame(ant);
-
 		if (frameActual.Hands.Count > 0)
 		{
 			HandList hands = frameActual.Hands;
@@ -55,7 +52,7 @@ public class NivelesJuego : MonoBehaviour {
 				if (Listo3 == true) {
 					Listo3 = false;
 					if (Listo3 == false) {
-						Application.LoadLevel (3);
+						 SceneManager.LoadScene (3);
 					}
 				}
 			}
@@ -64,13 +61,13 @@ public class NivelesJuego : MonoBehaviour {
 		if (Listo1 == true) {
 			Listo1 = false;
 			if (Listo1 == false) {
-				Application.LoadLevel (1);
+				 SceneManager.LoadScene (1);
 			}
 		} else {
 			if (Listo2 == true) {
 				Listo2 = false;
 				if (Listo2 == false) {
-					Application.LoadLevel (2);
+					 SceneManager.LoadScene (2);
 				}
 			} 
 		}

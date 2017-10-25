@@ -8,7 +8,7 @@ using WindowsInput;
 public class Jugador : MonoBehaviour
 {
 	Frame frameActual;
-	Frame frameAnt;
+	 
 
 	private Controller controller;
 	private HandModel modelos_manos;
@@ -27,7 +27,7 @@ public class Jugador : MonoBehaviour
 
 	string pos = "Centro",posAnt="";
 	bool masrapido = false, maslento = false;//variable creada
-	int contadoraire = 0, contadorrapido = 0, Puntaje=0, contadorlento = 0,contador = 0,contparalelo=0;//variablecreada
+	int contadoraire = 0, contadorrapido = 0, Puntaje=0, contadorlento = 0,contparalelo=0;//variablecreada
 	float x, y, z;
 
 	void Start(){
@@ -216,8 +216,8 @@ public class Jugador : MonoBehaviour
 		}
 			
 		frameActual = controller.Frame();
-		int ant = (int)frameActual.Id - 1;
-		frameAnt = controller.Frame(ant);
+		 
+		 
 
 		if (frameActual.Hands.Count > 0)
 		{

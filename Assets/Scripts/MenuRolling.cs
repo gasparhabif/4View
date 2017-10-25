@@ -1,16 +1,17 @@
 ﻿
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MenuRolling : MonoBehaviour 
 {
 	public void Iniciar(int nivel)
 	{
-		Application.LoadLevel (nivel);
+		 SceneManager.LoadScene (nivel);
 	}
 	public void Salir()
 	{
-		Application.LoadLevel (3);
+		 SceneManager.LoadScene (3);
 	}
 
 }

@@ -70,17 +70,20 @@ public class MagneticPinch : MonoBehaviour {
     float proximal_length = leap_hand.Fingers[0].Bone(Bone.BoneType.TYPE_PROXIMAL).Length;
     float trigger_distance = proximal_length * TRIGGER_DISTANCE_RATIO;
 
-    // Check thumb tip distance to joints on all other fingers.
-    // If it's close enough, start pinching.
-    for (int i = 1; i < HandModel.NUM_FINGERS && !trigger_pinch; ++i) {
-      Finger finger = leap_hand.Fingers[i];
+        // Check thumb tip distance to joints on all other fingers.
+        // If it's close enough, start pinching.
+        if (leap_hand.Fingers.Extended().Count == 0) // Added by Gaspo 4View
+        {
+            for (int i = 1; i < HandModel.NUM_FINGERS && !trigger_pinch; ++i) {
+              Finger finger = leap_hand.Fingers[i];
 
-      for (int j = 0; j < FingerModel.NUM_BONES && !trigger_pinch; ++j) {
-        Vector leap_joint_position = finger.Bone((Bone.BoneType)j).NextJoint;
-        if (leap_joint_position.DistanceTo(leap_thumb_tip) < trigger_distance)
-          trigger_pinch = true;
-      }
-    }
+              for (int j = 0; j < FingerModel.NUM_BONES && !trigger_pinch; ++j) {
+                Vector leap_joint_position = finger.Bone((Bone.BoneType)j).NextJoint;
+                if (leap_joint_position.DistanceTo(leap_thumb_tip) < trigger_distance)
+                  trigger_pinch = true;
+              }
+            }
+        }
 
     Vector3 pinch_position = hand_model.fingers[0].GetTipPosition();
 

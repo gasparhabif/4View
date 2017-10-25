@@ -6,14 +6,13 @@ public class Mapa : MonoBehaviour {
 	
 	int ContadorSatel = 0;
 	int ContadorActSatelites = 0;
-	int ContadorSemaforo = 0;
-	int ContadorActSemaforos = 0;
 	public Object Camino,Vacio,PerderSatelite,ActivarSatelite,Speed,Salto,Conos,Player,Nafta,SateliteObj,Slow,Gano;
 	// Use this for initialization
 	void Start () {
 		int x = 1; double z = 1.5;
 		int Tipo;
-		int [,]Mapa={//0-Vacio|1-Camino|2-Salto|3-Speed|4-Slow|5-ActivarSatelite|6-PerderSatelite/Satelite|7-PickUp|8-Cono|
+        #region Mapa
+        int [,]Mapa={//0-Vacio|1-Camino|2-Salto|3-Speed|4-Slow|5-ActivarSatelite|6-PerderSatelite/Satelite|7-PickUp|8-Cono|
 			{1,1,1,1,1},//1-5
 			{1,1,1,1,1},
 			{1,1,1,1,1},
@@ -222,8 +221,9 @@ public class Mapa : MonoBehaviour {
 			{1,1,1,1,1},//991-995
 			{9,9,9,9,9},//996-1000
 		};
+        #endregion
 
-		for (int a = 0; a < Mapa.GetLength (0); a++)
+        for (int a = 0; a < Mapa.GetLength (0); a++)
 			for (int b = 0; b < Mapa.GetLength (1); b++) {
 				Tipo = Mapa [a, b];
 				GenerarCubo (x * b, 0, z * a, Tipo);
@@ -304,14 +304,12 @@ public class Mapa : MonoBehaviour {
 	private void GenerarPickUp(double x, double y, double z)
 	{
 		Vector3 Posicion = new Vector3 ((float)x, (float)y+1, (float)z);
-		Object PickUp;
-		PickUp = Instantiate (Nafta, Posicion, Quaternion.identity);
+        Instantiate (Nafta, Posicion, Quaternion.identity);
 	}
 
 	private void GenerarCono(double x, double y, double z)
 	{
 		Vector3 Posicion = new Vector3 ((float)x, (float)y+0.65f, (float)z);
-		Object Cono;
-		Cono = Instantiate (Conos, Posicion, Quaternion.FromToRotation(Vector3.down,transform.forward));
+        Instantiate (Conos, Posicion, Quaternion.FromToRotation(Vector3.down,transform.forward));
 	}
 }

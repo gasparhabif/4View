@@ -13,10 +13,9 @@ public class Rotacion : MonoBehaviour {
 	public GameObject esqueleto;
 
 	Frame frameActual;
-	Frame frameAnt;
 
-	string pos = "Centro",posAnt="";
-	int contador = 0,contparalelo=0;
+	string pos = "Centro";
+	int contador = 0;
 
 	void Start()
 	{
@@ -27,10 +26,6 @@ public class Rotacion : MonoBehaviour {
 	void Update()
 	{
 		frameActual = controller.Frame(); //obtengo la informacion del leap de un frame
-		int ant = (int)frameActual.Id - 1;
-		frameAnt = controller.Frame(ant);
-
-
 		if (frameActual.Hands.Count > 0)
 		{
 			HandList hands = frameActual.Hands;
