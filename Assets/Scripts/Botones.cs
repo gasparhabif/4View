@@ -22,7 +22,6 @@ public class Botones : MonoBehaviour {
 	public Hand firstHand;
 
 	private Controller controller;
-	private bool Listo1 = false, Listo2 = false, Listo3 = false;
 	private static int Aviso = -1, p = 0, mal = 0, punta;
 	private string mostrar = "";
 	private bool chau = false;

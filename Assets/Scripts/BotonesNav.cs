@@ -18,7 +18,6 @@ public class BotonesNav : MonoBehaviour {
 	 
 
 	private Controller controller;
-	private bool Listo1 = false, Listo2 = false, Listo3 = false;
 
 	private static int Aviso = -1;
 	public static bool mostrar = false;

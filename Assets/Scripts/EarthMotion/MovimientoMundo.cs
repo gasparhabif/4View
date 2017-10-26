@@ -18,21 +18,17 @@ namespace WPM
         public static int rangoCamera = 0;
 
         public GameObject world;
-        public Canvas can, quiz;
         public static Camera camara;
 
         WorldMapGlobe map;
         Frame frameActual;
 
-        GameObject polo;
+        GameObject polo, canvasPrincipal, canvasQuiz;
 
         public static FingerList dedos;
 
         string pos = "Centro";
-        int topeN = 400,
-            topeS = 200,
-            topeE = 90,
-            topeO = -50;
+        int topeN = 400, topeS = 200, topeE = 90, topeO = -50;
         public Hand firstHand;
         #endregion
         #region Start
@@ -41,6 +37,8 @@ namespace WPM
             controller = controlador.GetLeapController();
             map = WorldMapGlobe.instance;
             polo = GameObject.Find("Polo");
+            canvasPrincipal = GameObject.Find("CanvasPrincipal");
+            canvasQuiz = GameObject.Find("CanvasQuiz");
         }
         #endregion
 
@@ -62,11 +60,24 @@ namespace WPM
                 #region Fly
                 case "Fly":
                     {
+                        canvasQuiz.SetActive(false);
                         map.showCountryNames = true;
                         DireccionDelMovimiento();
                     }
                     break;
-                    #endregion
+                #endregion
+                #region Flag Quiz
+                case "Flag Quiz":
+                    {
+                    }
+                    break;
+                #endregion
+                #region Name Quiz
+                case "Name Quiz":
+                    {
+                    }
+                    break;
+                #endregion
 
             }
 

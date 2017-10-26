@@ -22,3 +22,33 @@ C:\Users\Tommy\Desktop\Proyectoquiz1 - CopyCopiaPosta\Esqueleto Navegacion\Temp\
 C:\Users\Tommy\Desktop\Proyectoquiz1 - CopyCopiaPosta\Esqueleto Navegacion\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Tommy\Desktop\Proyectoquiz1 - CopyCopiaPosta\Esqueleto Navegacion\obj\Debug\Assembly-CSharp.dll
 C:\Users\Tommy\Desktop\Proyectoquiz1 - CopyCopiaPosta\Esqueleto Navegacion\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\GlobeLiteEdition.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\InputSimulator.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\LeapCSharp.NET3.5.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\System.Data.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\System.Windows.Forms.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\InputSimulator.pdb
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\Temp\bin\Debug\InputSimulator.xml
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\obj\Debug\Assembly-CSharp.dll
+C:\Users\Gaspo\Desktop\4ViewUnity\4View-Git\obj\Debug\Assembly-CSharp.pdb

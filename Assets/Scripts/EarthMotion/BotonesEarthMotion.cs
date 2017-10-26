@@ -12,7 +12,8 @@ namespace WPM
         public static string nombreBoton = "";
         [HideInInspector]
         public bool modoSeleccionado = false;
-        GameObject canvasPrincipal, canvasModos;
+        [HideInInspector]
+        static GameObject canvasPrincipal, canvasModos, canvasQuiz;
         #endregion
 
         // Use this for initialization
@@ -20,6 +21,8 @@ namespace WPM
         {
             canvasPrincipal = GameObject.Find("CanvasPrincipal");
             canvasModos = GameObject.Find("CanvasModos");
+            canvasQuiz = GameObject.Find("CanvasQuiz");
+            modoMenu(true);
         }
 
         #region Trigger
@@ -27,7 +30,10 @@ namespace WPM
         {
             nombreBoton = this.name;
             if (modoSeleccionado && MovimientoMundo.dedos.Extended().Count == 5 && nombreBoton == "Exit")
+            {
                 modoSeleccionado = false;
+                modoMenu(true);
+            }
             else
             {
                 if (MovimientoMundo.dedos.Extended().Count == 0)
@@ -45,19 +51,40 @@ namespace WPM
                         MovimientoMundo.ZoomOut();
                         break;
                     case "Fly":
+                        modoSeleccionado = true;
+                        canvasModos.SetActive(false);
+                        canvasPrincipal.SetActive(true);
+                        break;
                     case "Flag Quiz":
                     case "Name Quiz":
                         modoSeleccionado = true;
-                        canvasPrincipal.SetActive(true);
-                        canvasModos.SetActive(false);
+                        modoMenu(false);
                         break;
                     default:
-                        canvasModos.SetActive(true);
+                        modoMenu(true);
                         break;
                 }
             }
         }
         #endregion
+        #region Funciones
+        public static void modoMenu(bool estado)
+        {
+            if (estado)
+            {
+                canvasPrincipal.SetActive(false);
+                canvasQuiz.SetActive(false);
+                canvasModos.SetActive(true);
+            }
+            else
+            {
+                canvasPrincipal.SetActive(true);
+                canvasQuiz.SetActive(true);
+                canvasModos.SetActive(false);
+            }
+        }
+        #endregion
+
     }
 }
 
