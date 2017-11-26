@@ -4,7 +4,7 @@ using System.Collections;
 
 [InitializeOnLoad]
 public class FullscreenPlayMode : MonoBehaviour {
-    /*
+    
 	//The size of the toolbar above the game view, excluding the OS border.
 	private static int tabHeight = 22;
 
@@ -57,5 +57,5 @@ public class FullscreenPlayMode : MonoBehaviour {
 		EditorWindow gameView = GetMainGameView();
 		gameView.Close();
 	} 
-    */
+    
 }
